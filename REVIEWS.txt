@@ -1,0 +1,181 @@
+We are pleased to inform you that your submission
+      PAPER ID: 9
+      TITLE: What does the community think about Pythonic code?
+
+was accepted for inclusion in the SATToSE'18 program.
+
+Congratulation!
+
+Please, take the reviews into account and produce a revised version of your paper until June 15, 2018.
+
+Kind regards,
+Alexandre
+
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 9
+TITLE: What does the community think about Pythonic code?
+AUTHORS: Jose Javier Merchante Picazo and Gregorio Robles
+
+Overall evaluation: 2 (accept)
+
+----------- Overall evaluation -----------
+The authors of this paper perform an industrial survey in order to gain a better understanding of how python idioms (i.e. pythonic code) is perceived and approached by practitioners. The goal of the study is to gather sufficient information to support future research around the topic.
+
+The results show that the concept of pythonic code, is well recognized within the community. The usage of idioms seems to often correlate with higher quality code and can therefore be seen as means to classify and rank code artifacts.
+Starting with a survey is a good way to approach a topic and can lead towards interesting questions. It would be nice to learn in more detail which kind of questions were naturally triggered by the answers collected.
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 9
+TITLE: What does the community think about Pythonic code?
+AUTHORS: Jose Javier Merchante Picazo and Gregorio Robles
+
+Overall evaluation: 2 (accept)
+
+----------- Overall evaluation -----------
+Summary:
+
+          Pythonic code considers a set of coding idioms related to the Python language. Some Python developers adhere more to these idioms, and some less. This paper inspects the importance of the pythonic code by interviewing Python developers in a wide range of expertise. They have discovered that most of the developers are familiar with the term "pythonic" and that more experienced developers use these idioms more frequently. The paper suggests that the use of pythonic/idiomatic code has a higher importance in the Python community than in other languages, driven by the expressiveness of the Python language and an increased awareness within the Python community.
+
+          Pros:
+          - interesting topic
+          - the paper is easy to follow
+          - interesting approach to use idiomatic code to classify projects and developers
+          - structured interview with Python developers from a wide range of expertise
+
+          Cons:
+          - the results should be represented in a more scientific way, and not just described
+          - no discussion of work related to idioms in Python or other languages
+          - the motivation for this work is revealed only at the end as future work
+
+          Detailed review:
+          - The motivation of the paper should be discussed to a larger extent. The Python community is not the only community which uses coding idioms. Many other language communities do the same. The authors should compare pythonic idioms to these community idioms as well.  The comparison with Go is not very extensive. Without mentioning any related, even if loosely related, work it is very hard to assess how the case of Python differs from other languages.
+          - The author's previous work at SATToSE '17 is not cited.
+          - Is really the example from the beginning of the paper (the for loop example), the best example for the pythonic way of coding? This kind of the for loop is heavily used in other languages as well.
+          - It is not entirely clear to me, if and how the authors would precisely differentiate between idiomatic and pythonic code. At the beginning of the paper, I understood that the authors deliberately define pythonic as different from idiomatic, but at the end of the paper, the two terms are used interchangeably.
+          - Instead of the last sentence in the abstract, "In this paper, we show the results of some interviews conducted to Python developers with different experience in the language.", the authors should mention the actual conclusions. Otherwise, the reader is kept in suspense until the end of the paper. Another sentence about the motivation of this work would help the reader to understand what he/she can expect to be discussed.
+          - I really like that the interviews give an insight into what the Python community thinks about pythonic code.
+          - I appreciate that the author's published their questionnaires - I would even more appreciate if they could publish the transcripts of their interviews.
+          - The future work should state what is the purpose of this study. Trying to use the idiomatic code as a quality metric for software projects could be an interesting future direction.
+          - "For an advanced programmer in Python there is always a right way of accomplishing a task that may be not obvious at first." - There should be a reference to support this claim.
+          - "there is not a empirical way to show their importance" - I strongly disagree. The way to show the importance of these idioms is *the empirical* way, that is conducting interviews with developers, and checking whether it is easier for them to understand the code written in the pythonic way or some other way.
+          - "However, even though idioms exist in other programming languages, there is not always one typical way to code a task as there is supposed to be in Python." - There should be a reference for this claim. Many other language communities, like Smalltalk (have a look at "Smalltalk Best Practice Patterns" by Kent Beck) have coding idioms.
+          - "they can differentiate the level of Python" - What is a level of Python?
+          - The conclusion is a bit strong for the paper since the results are not statistically supported. Authors have written about some of the answers of interviews but did not present the overall results.
+
+
+          Small corrections and typos:
+          General:
+          - links to footnotes and figures are not working
+          - The word "pythonic" is somewhere capitalised and somewhere not. Please be consistent. I would propose to settle for one, consistently used style, e.g. pythonic in italic on the first notion, non-italic from then on. Define the term pythonic on the first notion and describe how it differs from idiomatic and code conventions.
+          - In section 3, the categories of asked questions are labelled (1), (2) and (3), and in section 4, they are labelled (a), (b) and (c). Please be consistent.
+
+          Abstract:
+          - "Python is a programming language that in the last years has grown a lot." -> "Python is a programming language that has grown a lot in the last years."
+          - "we show the results of some interviews conducted *to* Python developers" -> "we show the results of some interviews conducted *with* Python developers"
+          - "in *a* first approach" -> "in *the* first approach"
+          - "hard to understand in a empirical way in a first approach" - what does it mean "in a first approach"?
+         - "hard to understand in *a* empirical way in a first approach" -> *an*
+          - "therefore is necessary to understand" -> "therefore *it* is necessary to understand"
+
+          1. Introduction:
+          - "During the last years, Python programming language" -> "During the last years, *the* Python programming language"
+          - "also reflected *in* GitHub" -> "also reflected *on* GitHub"
+          - "focused *in* the readability" -> "focused *on* the readability"
+          - "principles *for*" -> "principles *of*"
+          - "For an advanced programmer in Python there is always a right way of accomplishing a task that may be not obvious at first" - Not obvious to whom? Beginners?
+          - "defined as “An idea or piece..." -> "defined as “an idea or piece" (there is no need for an uppercase letter)
+          - "rather tan" -> "rather than"
+          - "pythonic term" -> "*the* pythonic term"
+          - "*that* are beginners in Python" -> "*who* are beginners in Python"
+          - "*a* empirical way" -> "*an* empirical way"
+
+          2. Research method
+          - "getting information *about* the community opinion" -> "getting information *on* the community opinion"
+          - "how important *are this kind* of structures" -> "how important are *these kinds* of structures" or "how important *is this kind* of structures"
+          - "The knowledge of the interviewees about Python ranged from 1 year to 15 years." -> This is not true, table 1 says up to 16 years.
+          - *in the figure 1* - It should be "Table 1". Please, link a reference to a figure or table.
+          - "The questions *were varied*" -> "The questions *varied*"
+          - "The questions were varied depending on the interviewees." - How are they varied? Did not all the interviewees get the same questions? Or they got just different variations of the same questions?
+          - "how developers became aware of Pythonic idioms" -> "how developers became aware of *the* Pythonic idioms"
+          - "how it affects the professional environment" - missing a full-stop at the end of the sentence.
+
+          3. Interviews results
+          - "Interviews results" -> "Interview results" (only the last noun should be in plural)
+          - "it’s standard library" -> "its standard library"
+          - "Zen of Python(3)" - The term is mentioned earlier, but gets a footnote only here. Please, put the footnote on the first mention.
+          - "beautiful, simple and readable" - why are "beautiful" and "simple" in italic, and "readable" not?
+          - "some Python structures like loops" - a loop is not the Python structure
+          - "interviewees explained Pythonic in a *slight* different way" -> *slightly*
+          - "styled code *and* requiring a lower number of lines of code for solving a problem" -> "styled code requiring a lower number of lines of code for solving a problem" (without "and")
+          - "In Python maybe there is a greater tendency to value that..." - If this text is copied from somewhere else, it should be under quotes, and its source should be referenced.
+          - "Some of them pointed that in Pythonic code is not the same as idiomatic code, in their opinion, idioms can improve the code in the right hands, but for beginners it could make the code harder to understand." - This is a run-on sentence. Please rephrase it.
+          - "in Stack Overflow" -> "on StackOverflow"
+          - "When asked if they can differentiate the level of Python by just reading the code, they *point* out" -> "When asked if they can differentiate the level of Python by just reading the code, they *pointed* out"
+          - "They also said that they way of writing the code is also a good signal, for example from the use of snake case instead of camelCase." - "they way" is not correct form. Please rephrase, as it is difficult to understand.
+          - "Pythonic and Python idioms are different things. [However,] Pythonic ..." - is this copied from another source? Is this a statement from one of the interviewees? Please, mark correspondingly.
+          - "In companies where the code is not Open Source" - "open source" should not be capitalised.
+          - "In Open source companies ** is almost mandatory to develop Pythonic code." -> "*it* is almost"
+          - "then when they touch something leave it better" - Please rephrase. What does this mean?
+
+          4. Conclusion
+          - "better understanding *about*" -> "better understanding *of*"
+          - "because *improve* both factors" -> "because *it improves* both factors" Which are these two factors?
+          - "The use of some structures in Python (idioms) is desirable because improve both factors, therefore it is necessary to teach Python programmers once they have learned the basics, the importance of certain structures to improve their code for both a personal and professional field." - This is a run-on sentence. Please rephrase.
+          - "We would like to filter projects" - Why filtering projects? Is it in order to use pythonic as a quality metric?
+          - "how do new Python idioms propagate" - Are there any new idioms? Idioms are imposed by the language and standard libraries, those usually evolve slowly, how can there be new idioms?
+
+          5. Future work
+          - "of the *use* of idioms" -> "of the *usage* of idioms" (usage refers to a specific way of something being used)
+          - "If idioms are good practices, we have noticed as well the existence of anti-idioms (similar to the patterns and anti-patterns idea [1])." - The answer to the question of idioms being good or bad practice does not influence the fact that the authors have noticed the existence of anti-idioms. Please rephrase.
+
+          6. Appendix
+          - "When you discover a new idiom... [...]" -> Please remove the "...". It seems like an unfinished sentence.
+          - "Could you differentiate a beginner *programer* from an *advancer* programmer from its code?" -> "programmer", "advanced programmer"
+          - "Do you read and learn python idioms ** reading ** coworker’s code?" -> "Do you read and learn python idioms *by* reading *the* coworker’s code?"
+          - "Do you read and learn python idioms reading coworker’s code?" -> Python is a name, should start with a capital letter.
+
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 9
+TITLE: What does the community think about Pythonic code?
+AUTHORS: Jose Javier Merchante Picazo and Gregorio Robles
+
+Overall evaluation: -2 (reject)
+
+----------- Overall evaluation -----------
+Be careful with the use of English language :
+- therefore is necessary -> therefore IT is necessary
+- interviews conducted to -> conducted WITH
+- reflected in GitHub -> reflected ON GitHub
+- focused in the readability -> focused on readability
+- Neither it is in the -> Neither IS IT in the
+- rather tan -> rather THAN
+- In Open source companies is almost mandatory to -> In Open source companies IT is almost mandatory to
+- In Open Source companies is usual to -> In Open Source companies IT is usual to
+- In the other hand -> ON the other hand
+- an huge community -> A huge community
+- community that focus on -> - community that FOCUSSES on
+- is desirable because improve -> is desirable because IT improveS
+
+At first sight the contribution from the paper, as stated in the abstract, looked weak:
+"we show the results of some interviews conducted to Python developers".
+Near the end of the in the introduction, it is made more precise that the purpose of the
+interview was to find out what the Python community sees as “Pythonic code” and what
+the importance of that is to the community.
+Nevertheless what is still missing is an explanation and motivation of WHY that is important
+and what the scientific contribution is that derives from that.
+
+The participants were 13 developers from different Spanish companies
+with an experience in Python between 1 and 15 years.
+Each interview took no longer than 15 minutes, including explaining the context and purpose of the interview.
+This time looks quite short to me to get any relevant insights. Also, the questions asked depended on the interviewees.
+
+As stated in the conclusion, this paper is still work-in-progress for identifying the importance of the use of Python idioms.
+I think this could indeed be important but the results in this paper are still very limited and preliminary.
+Furthermore, it is not clear what you will do with these result once you know what Pythonic code really means
+and how it is used and propagated. What is the big research question behind that, how will it advance the state of the art?
+You should state and motivate your scientific goals on the short and long term much better.
+
+
