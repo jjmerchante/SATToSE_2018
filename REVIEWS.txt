@@ -72,69 +72,69 @@ Summary:
           - In section 3, the categories of asked questions are labelled (1), (2) and (3), and in section 4, they are labelled (a), (b) and (c). Please be consistent.
 
           Abstract:
-          - "Python is a programming language that in the last years has grown a lot." -> "Python is a programming language that has grown a lot in the last years."
-          - "we show the results of some interviews conducted *to* Python developers" -> "we show the results of some interviews conducted *with* Python developers"
-          - "in *a* first approach" -> "in *the* first approach"
-          - "hard to understand in a empirical way in a first approach" - what does it mean "in a first approach"?
-         - "hard to understand in *a* empirical way in a first approach" -> *an*
-          - "therefore is necessary to understand" -> "therefore *it* is necessary to understand"
-
-          1. Introduction:
-          - "During the last years, Python programming language" -> "During the last years, *the* Python programming language"
-          - "also reflected *in* GitHub" -> "also reflected *on* GitHub"
-          - "focused *in* the readability" -> "focused *on* the readability"
-          - "principles *for*" -> "principles *of*"
-          - "For an advanced programmer in Python there is always a right way of accomplishing a task that may be not obvious at first" - Not obvious to whom? Beginners?
-          - "defined as “An idea or piece..." -> "defined as “an idea or piece" (there is no need for an uppercase letter)
-          - "rather tan" -> "rather than"
-          - "pythonic term" -> "*the* pythonic term"
-          - "*that* are beginners in Python" -> "*who* are beginners in Python"
-          - "*a* empirical way" -> "*an* empirical way"
-
-          2. Research method
-          - "getting information *about* the community opinion" -> "getting information *on* the community opinion"
-          - "how important *are this kind* of structures" -> "how important are *these kinds* of structures" or "how important *is this kind* of structures"
-          - "The knowledge of the interviewees about Python ranged from 1 year to 15 years." -> This is not true, table 1 says up to 16 years.
-          - *in the figure 1* - It should be "Table 1". Please, link a reference to a figure or table.
-          - "The questions *were varied*" -> "The questions *varied*"
-          - "The questions were varied depending on the interviewees." - How are they varied? Did not all the interviewees get the same questions? Or they got just different variations of the same questions?
-          - "how developers became aware of Pythonic idioms" -> "how developers became aware of *the* Pythonic idioms"
-          - "how it affects the professional environment" - missing a full-stop at the end of the sentence.
-
-          3. Interviews results
-          - "Interviews results" -> "Interview results" (only the last noun should be in plural)
-          - "it’s standard library" -> "its standard library"
-          - "Zen of Python(3)" - The term is mentioned earlier, but gets a footnote only here. Please, put the footnote on the first mention.
-          - "beautiful, simple and readable" - why are "beautiful" and "simple" in italic, and "readable" not?
-          - "some Python structures like loops" - a loop is not the Python structure
-          - "interviewees explained Pythonic in a *slight* different way" -> *slightly*
-          - "styled code *and* requiring a lower number of lines of code for solving a problem" -> "styled code requiring a lower number of lines of code for solving a problem" (without "and")
-          - "In Python maybe there is a greater tendency to value that..." - If this text is copied from somewhere else, it should be under quotes, and its source should be referenced.
-          - "Some of them pointed that in Pythonic code is not the same as idiomatic code, in their opinion, idioms can improve the code in the right hands, but for beginners it could make the code harder to understand." - This is a run-on sentence. Please rephrase it.
-          - "in Stack Overflow" -> "on StackOverflow"
-          - "When asked if they can differentiate the level of Python by just reading the code, they *point* out" -> "When asked if they can differentiate the level of Python by just reading the code, they *pointed* out"
-          - "They also said that they way of writing the code is also a good signal, for example from the use of snake case instead of camelCase." - "they way" is not correct form. Please rephrase, as it is difficult to understand.
-          - "Pythonic and Python idioms are different things. [However,] Pythonic ..." - is this copied from another source? Is this a statement from one of the interviewees? Please, mark correspondingly.
-          - "In companies where the code is not Open Source" - "open source" should not be capitalised.
-          - "In Open source companies ** is almost mandatory to develop Pythonic code." -> "*it* is almost"
-          - "then when they touch something leave it better" - Please rephrase. What does this mean?
-
-          4. Conclusion
-          - "better understanding *about*" -> "better understanding *of*"
-          - "because *improve* both factors" -> "because *it improves* both factors" Which are these two factors?
-          - "The use of some structures in Python (idioms) is desirable because improve both factors, therefore it is necessary to teach Python programmers once they have learned the basics, the importance of certain structures to improve their code for both a personal and professional field." - This is a run-on sentence. Please rephrase.
-          - "We would like to filter projects" - Why filtering projects? Is it in order to use pythonic as a quality metric?
-          - "how do new Python idioms propagate" - Are there any new idioms? Idioms are imposed by the language and standard libraries, those usually evolve slowly, how can there be new idioms?
-
-          5. Future work
-          - "of the *use* of idioms" -> "of the *usage* of idioms" (usage refers to a specific way of something being used)
-          - "If idioms are good practices, we have noticed as well the existence of anti-idioms (similar to the patterns and anti-patterns idea [1])." - The answer to the question of idioms being good or bad practice does not influence the fact that the authors have noticed the existence of anti-idioms. Please rephrase.
-
-          6. Appendix
-          - "When you discover a new idiom... [...]" -> Please remove the "...". It seems like an unfinished sentence.
-          - "Could you differentiate a beginner *programer* from an *advancer* programmer from its code?" -> "programmer", "advanced programmer"
-          - "Do you read and learn python idioms ** reading ** coworker’s code?" -> "Do you read and learn python idioms *by* reading *the* coworker’s code?"
-          - "Do you read and learn python idioms reading coworker’s code?" -> Python is a name, should start with a capital letter.
+>>          - "Python is a programming language that in the last years has grown a lot." -> "Python is a programming language that has grown a lot in the last years."
+>>          - "we show the results of some interviews conducted *to* Python developers" -> "we show the results of some interviews conducted *with* Python developers"
+>>          - "in *a* first approach" -> "in *the* first approach"
+>>          - "hard to understand in a empirical way in a first approach" - what does it mean "in a first approach"?
+>>          - "hard to understand in *a* empirical way in a first approach" -> *an*
+>>          - "therefore is necessary to understand" -> "therefore *it* is necessary to understand"
+>>
+>>          1. Introduction:
+>>          - "During the last years, Python programming language" -> "During the last years, *the* Python programming language"
+>>          - "also reflected *in* GitHub" -> "also reflected *on* GitHub"
+>>          - "focused *in* the readability" -> "focused *on* the readability"
+>>          - "principles *for*" -> "principles *of*"
+>>          - "For an advanced programmer in Python there is always a right way of accomplishing a task that may be not obvious at first" - Not obvious to whom? Beginners?
+>>          - "defined as “An idea or piece..." -> "defined as “an idea or piece" (there is no need for an uppercase letter)
+>>          - "rather tan" -> "rather than"
+>>          - "pythonic term" -> "*the* pythonic term"
+>>          - "*that* are beginners in Python" -> "*who* are beginners in Python"
+>>          - "*a* empirical way" -> "*an* empirical way"
+>>
+>>          2. Research method
+>>          - "getting information *about* the community opinion" -> "getting information *on* the community opinion"
+>>          - "how important *are this kind* of structures" -> "how important are *these kinds* of structures" or "how important *is this kind* of structures"
+>>          - "The knowledge of the interviewees about Python ranged from 1 year to 15 years." -> This is not true, table 1 says up to 16 years.
+>>          - *in the figure 1* - It should be "Table 1". Please, link a reference to a figure or table.
+>>          - "The questions *were varied*" -> "The questions *varied*"
+>>          - "The questions were varied depending on the interviewees." - How are they varied? Did not all the interviewees get the same questions? Or they got just different variations of the same questions?
+>>          - "how developers became aware of Pythonic idioms" -> "how developers became aware of *the* Pythonic idioms"
+>>          - "how it affects the professional environment" - missing a full-stop at the end of the sentence.
+>>
+>>          3. Interviews results
+>>          - "Interviews results" -> "Interview results" (only the last noun should be in plural)
+>>          - "it’s standard library" -> "its standard library"
+>>          - "Zen of Python(3)" - The term is mentioned earlier, but gets a footnote only here. Please, put the footnote on the first mention.
+>>          - "beautiful, simple and readable" - why are "beautiful" and "simple" in italic, and "readable" not?
+>>          - "some Python structures like loops" - a loop is not the Python structure
+>>          - "interviewees explained Pythonic in a *slight* different way" -> *slightly*
+>>          - "styled code *and* requiring a lower number of lines of code for solving a problem" -> "styled code requiring a lower number of lines of code for solving a problem" (without "and")
+>>          - "In Python maybe there is a greater tendency to value that..." - If this text is copied from somewhere else, it should be under quotes, and its source should be referenced.
+>>          - "Some of them pointed that in Pythonic code is not the same as idiomatic code, in their opinion, idioms can improve the code in the right hands, but for beginners it could make the code harder to understand." - This is a run-on sentence. Please rephrase it.
+>>          - "in Stack Overflow" -> "on StackOverflow"
+>>          - "When asked if they can differentiate the level of Python by just reading the code, they *point* out" -> "When asked if they can differentiate the level of Python by just reading the code, they *pointed* out"
+>>          - "They also said that they way of writing the code is also a good signal, for example from the use of snake case instead of camelCase." - "they way" is not correct form. Please rephrase, as it is difficult to understand.
+>>          - "Pythonic and Python idioms are different things. [However,] Pythonic ..." - is this copied from another source? Is this a statement from one of the interviewees? Please, mark correspondingly.
+>>          - "In companies where the code is not Open Source" - "open source" should not be capitalised.
+>>          - "In Open source companies ** is almost mandatory to develop Pythonic code." -> "*it* is almost"
+>>          - "then when they touch something leave it better" - Please rephrase. What does this mean?
+>>
+>>          4. Conclusion
+>>          - "better understanding *about*" -> "better understanding *of*"
+>>          - "because *improve* both factors" -> "because *it improves* both factors" Which are these two factors?
+>>          - "The use of some structures in Python (idioms) is desirable because improve both factors, therefore it is necessary to teach Python programmers once they have learned the basics, the importance of certain structures to improve their code for both a personal and professional field." - This is a run-on sentence. Please rephrase.
+>>          - "We would like to filter projects" - Why filtering projects? Is it in order to use pythonic as a quality metric?
+>>          - "how do new Python idioms propagate" - Are there any new idioms? Idioms are imposed by the language and standard libraries, those usually evolve slowly, how can there be new idioms?
+>>
+>>          5. Future work
+>>          - "of the *use* of idioms" -> "of the *usage* of idioms" (usage refers to a specific way of something being used)
+>>          - "If idioms are good practices, we have noticed as well the existence of anti-idioms (similar to the patterns and anti-patterns idea [1])." - The answer to the question of idioms being good or bad practice does not influence the fact that the authors have noticed the existence of anti-idioms. Please rephrase.
+>>
+>>          6. Appendix
+>>          - "When you discover a new idiom... [...]" -> Please remove the "...". It seems like an unfinished sentence.
+>>          - "Could you differentiate a beginner *programer* from an *advancer* programmer from its code?" -> "programmer", "advanced programmer"
+>>          - "Do you read and learn python idioms ** reading ** coworker’s code?" -> "Do you read and learn python idioms *by* reading *the* coworker’s code?"
+>>s          - "Do you read and learn python idioms reading coworker’s code?" -> Python is a name, should start with a capital letter.
 
 
 ----------------------- REVIEW 3 ---------------------
@@ -145,19 +145,19 @@ AUTHORS: Jose Javier Merchante Picazo and Gregorio Robles
 Overall evaluation: -2 (reject)
 
 ----------- Overall evaluation -----------
-Be careful with the use of English language :
-- therefore is necessary -> therefore IT is necessary
-- interviews conducted to -> conducted WITH
-- reflected in GitHub -> reflected ON GitHub
-- focused in the readability -> focused on readability
-- Neither it is in the -> Neither IS IT in the
-- rather tan -> rather THAN
-- In Open source companies is almost mandatory to -> In Open source companies IT is almost mandatory to
-- In Open Source companies is usual to -> In Open Source companies IT is usual to
-- In the other hand -> ON the other hand
-- an huge community -> A huge community
-- community that focus on -> - community that FOCUSSES on
-- is desirable because improve -> is desirable because IT improveS
+>>Be careful with the use of English language :
+>>- therefore is necessary -> therefore IT is necessary
+>>- interviews conducted to -> conducted WITH
+>>- reflected in GitHub -> reflected ON GitHub
+>>- focused in the readability -> focused on readability
+>>- Neither it is in the -> Neither IS IT in the
+>>- rather tan -> rather THAN
+>>- In Open source companies is almost mandatory to -> In Open source companies IT is almost mandatory to
+>>- In Open Source companies is usual to -> In Open Source companies IT is usual to
+>>- In the other hand -> ON the other hand
+>>- an huge community -> A huge community
+>>- community that focus on -> - community that FOCUSSES on
+>>- is desirable because improve -> is desirable because IT improveS
 
 At first sight the contribution from the paper, as stated in the abstract, looked weak:
 "we show the results of some interviews conducted to Python developers".

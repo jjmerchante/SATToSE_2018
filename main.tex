@@ -24,20 +24,20 @@ Email: grex@gsyc.urjc.es
 \maketitle
 
 \begin{abstract}
-Python is a programming language that in the last years has grown a lot. In the Python community there is a culture of programming the ``right way'', which is called Pythonic. That term could be hard to understand in a empirical way in a first approach, therefore is necessary to understand what the community thinks about this ``right way'' of doing things. In this paper, we show the results of some interviews conducted to Python developers with different experience in the language.
+Python is a programming language that has grown a lot in the last years. In the Python community there is a culture of programming the ``right way'', which is called Pythonic. That term could be hard to understand in an empirical way, therefore it is necessary to understand what the community thinks about this ``right way'' of doing things. In this paper, we show the results of some interviews conducted with Python developers with different experience in the language.
 
 \end{abstract}
 
 
 \section{Introduction}
 
-During the last years, Python programming language has become one of the most loved and popular languages in the world as we can see in surveys carried out by Stack Overflow\footnote{https://insights.stackoverflow.com/survey/2018}. The impact of this language is also reflected in GitHub: Python is the second most popular language with over 1M projects and 40\% more pull request in 2017 than in 2016\footnote{https://octoverse.github.com/}. 
+During the last years, the Python programming language has become one of the most loved and popular languages in the world as we can see in surveys carried out by StackOverflow\footnote{https://insights.stackoverflow.com/survey/2018}. The impact of this language is also reflected on GitHub: Python is the second most popular language with over 1M projects and 40\% more pull request in 2017 than in 2016\footnote{https://octoverse.github.com/}. 
 
-Python is a general purpose language that is focused in the readability, being simple and also efficient. One of the principles for Python's design, guided by the \textit{The Zen of Python}, says that ``There should be one-- and preferably only one --obvious way to do it''. For an advanced programmer in Python there is always a right way of accomplishing a task that may be not obvious at first. In the Python community, ``the obvious way'' is called the \emph{pythonic} way.
+Python is a general purpose language that is focused on the readability, being simple and also efficient. One principle of Python's design, guided by the \textit{The Zen of Python}\footnote{PEP 20 -- The Zen of Python}, says that ``There should be one-- and preferably only one --obvious way to do it''. For an advanced programmer in Python there is always a right way of accomplishing a task that may be not obvious at first for beginners. In the Python community, ``the obvious way'' is called the \emph{pythonic} way.
 
-The term \textit{pythonic} is not very used in introductory books, or beginners' tutorials. Neither it is in the Python Style Guide (PEP8), where it is mentioned once explaining four guidelines.  And it only appears a few times in all the official Python documentation. In the Python glossary it is defined as ``An idea or piece of code which closely follows the most common idioms of the Python language, rather tan implementing code using concepts common to other languages''.
+The term \textit{pythonic} is not very used in introductory books, or beginners' tutorials. Neither is it in the Python Style Guide (PEP8), where it is mentioned once explaining four guidelines.  And it only appears a few times in all the official Python documentation. In the Python glossary it is defined as ``an idea or piece of code which closely follows the most common idioms of the Python language, rather than implementing code using concepts common to other languages''.
 
-In the following piece of code we can see a more practical meaning of \textit{pythonic} term. Many programmers that are beginners in Python will iterate over a list as they were in an other language:
+In the following piece of code we can see a more practical meaning of the \textit{pythonic} term. Many programmers who are beginners in Python will iterate over a list as they were in an other language:
 
 \begin{verbatim}
 colors = ["blue", "red", "yellow"]
@@ -58,14 +58,14 @@ for color in colors:
 
 It is more readable, simple and also improves the performance.
 
-Many idioms can make the code more \textit{pythonic}, but after all, there is not a  empirical way to show their importance, and thereby we had to interview developers to know how the Python community defines ``Pythonic code'', and what they think about all of these structures.
+Many idioms can make the code more \textit{pythonic}, but after all, there is not an empirical way to show their importance, and thereby we had to interview developers to know how the Python community defines ``Pythonic code'', and what they think about all of these structures.
 
 
 \section{Research method}
 
-For the interviews, we focused on getting information about the community opinion about Python idioms. We collect information about how they learn the idioms, the evolution of their code, and how important are this kind of structures in their companies.
+For the interviews, we focused on getting information on the community opinion about Python idioms. We collect information about how they learn the idioms, the evolution of their code, and how important is this kind of structures in their companies.
 
-In order to find candidates for the interviews, we asked for participation in the PyConEs (the most important conference about Python in Spain) and contacted several developers by email. The knowledge of the interviewees about Python ranged from 1 year to 15 years. They work in different companies with a diverse background as can be seen in the figure~\ref{tab:interviewees}.
+In order to find candidates for the interviews, we asked for participation in the PyConEs (the most important conference about Python in Spain) and contacted several developers by email. The knowledge of the interviewees about Python ranged from 1 year to 15 years. They work in different companies with a diverse background as can be seen in the table ~\ref{tab:interviewees}.
 
 \begin{table}
     \centering
@@ -74,7 +74,7 @@ In order to find candidates for the interviews, we asked for participation in th
         \textbf{Id} & \textbf{Exp.} & \textbf{Current employment} \\
         
         I1 &  6 & DevOps Eng. \\
-        I2 & 16 & Softw. Consultant, Python Trainer \\
+        I2 & 15 & Softw. Consultant, Python Trainer \\
         I3 &  4 & Chief Data Scientist \\
         I4 &  3 & SecDevOps Backend Eng. \\
         I5 & 11 & Researcher \\
@@ -95,31 +95,31 @@ Most of the interviews were conducted with a video chat software, some of them i
 
 At the beginning of the interview, we have put the interview in context and have introduced its purpose to the interviewees. We explained the research we are doing on \textit{Pythonic} elements and possible future research.
 
-The questions were varied depending on the interviewees. We divided the questions in three main categories: (1) those related to
-the meaning and concept of the term \textit{Pythonic}, (2) how developers became aware of \textit{Pythonic} idioms and how they approached them, and (3) those on the impact and spread of \textit{Pythonic} in the Python community, including how it affects the professional environment
+The questions order varied depending on the interviewees's answers. We divided the questions in three main categories: (1) those related to
+the meaning and concept of the term \textit{Pythonic}, (2) how developers became aware of the \textit{Pythonic} idioms and how they approached them, and (3) those on the impact and spread of \textit{Pythonic} in the Python community, including how it affects the professional environment.
 
-\section{Interviews results}
+\section{Interview results}
 
 Some common questions asked to the interviewees are in the Appendix A. For a better understanding, the answers to the questions has been divided in the three main categories shown in the previous section.
 
 \textit{a) Meaning and concept of Python idioms}
 
-The 13 interviewees know what \textit{Pythonic} means. Most of them defined the term as code that is readable and easy to understand with the use of constructions that are provided by the language or it's standard library.
-Some of them cited that \textit{Pythonic} code is a code that adheres to the principles of the \textit{Zen of Python}\footnote{PEP 20 -- The Zen of Python}, and therefore, is code that is \textit{beautiful}, \textit{simple} and readable among others principles.
+The 13 interviewees know what \textit{Pythonic} means. Most of them defined the term as code that is readable and easy to understand with the use of constructions that are provided by the language or its standard library.
+Some of them cited that \textit{Pythonic} code is a code that adheres to the principles of the \textit{Zen of Python}, and therefore it is code that is \textit{beautiful}, \textit{simple} and \textit{readable} among others principles.
 
-The most frequent example were \textit{List Comprehensions}, a one-line structure to create a list in Python. Other examples mentioned were the rules from the Python Guide Style, the use of Python keywords and the way of using some Python structures like loops.
+The most frequent example were \textit{List Comprehensions}, a one-line statement to create a list in Python. Other examples mentioned were the rules from the Python Guide Style, the use of Python keywords and the way of using some Python statements like loops.
 
 
-Depending on the experience with Python, interviewees explained \textit{Pythonic} in a slight different way. Those who are more experienced mentioned built-ins, efficiency, and structure more frequently, while the less experienced described it as a way of obtaining better styled code and requiring a lower number of lines of code for solving a problem. 
+Depending on the experience with Python, interviewees explained \textit{Pythonic} in a slightly different way. Those who are more experienced mentioned built-ins, efficiency, and structure more frequently, while the less experienced described it as a way of obtaining better styled code requiring a lower number of lines of code for solving a problem. 
 
 Regarding other languages, interviewees commented that idioms can also be found in languages like \textit{Golang}. However, even though idioms exist in other programming languages, there is not always one typical way to code a task as there is supposed to be in Python.
 \begin{quote}
 \textit{
-    In Python maybe there is a greater tendency to value that. In other languages, it is a quality that is not pursued by the community. But [in] Python from its origin, perhaps by chance or by its creation, I do not know, it is highly valued. It is a language that has many possibilities and more advanced functionality that makes many idioms. It is something that comes from the language, and in Python there is more [of it] than in other languages. [I2]
+    "In Python maybe there is a greater tendency to value that. In other languages, it is a quality that is not pursued by the community. But [in] Python from its origin, perhaps by chance or by its creation, I do not know, it is highly valued. It is a language that has many possibilities and more advanced functionality that makes many idioms. It is something that comes from the language, and in Python there is more [of it] than in other languages." [I2]
 }
 \end{quote}
 
-Some of them pointed that in \textit{Pythonic} code is not the same as idiomatic code, in their opinion, idioms can improve the code in the right hands, but for beginners it could make the code harder to understand.
+Some of them pointed that in \textit{Pythonic} code is not the same as idiomatic code; therefore, idioms can improve the code in the right hands, but for beginners it could make the code harder to understand.
 
 All of them told us that \textit{Pythonic} code is desirable. In their opinion, the more \textit{Pythonic} is the code, the fewer errors the programmer will make.
 \\
@@ -127,17 +127,17 @@ All of them told us that \textit{Pythonic} code is desirable. In their opinion, 
 \textit{b) How developers get to know Pythonic code}
 
 Most of the interviewees answered that they learned about \textit{Pythonic} code from reading code in repositories of other projects. They also got to know \textit{Pythonic} code from books, conferences and from colleagues at work.
-They pointed out that in \textit{Stack Overflow} you can find the best way to program a specific task, but it is not the best source to learn to program in Python.
+They pointed out that on \textit{StackOverflow} you can find the best way to program a specific task, but it is not the best source to learn to program in Python.
 
 Most of them think that understanding and reading idioms is easier than implementing them, nevertheless, their code has become more \textit{pythonic} over the years.
 
-When asked if they can differentiate the level of Python by just reading the code, they point out that the knowledge of the use of the idioms is a good signal. They also said that they way of writing the code is also a good signal, for example from the use of \textit{snake\_case} instead of \textit{camelCase}.
+When asked if they can differentiate the level of Python by just reading the code, they point out that the knowledge of the usage of the idioms is a good signal and also the way of writing the code, for example from the use of \textit{snake\_case} instead of \textit{camelCase}.
 
 
 Among Python developers, those who use more \textit{Pythonic idioms} are seen as having more expertise in the Python language:
 \begin{quote}
 \textit{
-    \textit{Pythonic} and Python idioms are different things. [However,] \textit{Pythonic} can be used to measure a developer’s skills, idioms can be used to (at least) measure a developer’s knowledge. [I5]
+    "\textit{Pythonic} and Python idioms are different things. [However,] \textit{Pythonic} can be used to measure a developer’s skills, idioms can be used to (at least) measure a developer’s knowledge." [I5]
 }
 \end{quote}
 
@@ -145,20 +145,20 @@ Among Python developers, those who use more \textit{Pythonic idioms} are seen as
 
 \textit{c) Impact and propagation of Pythonic in the Python community and at work}
 
-In Open source companies is almost mandatory to develop \textit{Pythonic code}. In companies where the code is not Open Source, it is not mandatory, but is necessary to be at least well documented. In Open Source companies is usual to make peer reviews in order to improve the code and in the process \textit{Pythonic idioms} are frequently introduced. But once merged into the repository, code tends not to be changed until a bug appears.
+In open source companies it is almost mandatory to develop \textit{Pythonic code}. In companies where the code is not open oource, it is not mandatory, but is necessary to be at least well documented. In open source companies it is usual to make peer reviews in order to improve the code and in the process \textit{Pythonic idioms} are frequently introduced. But once merged into the repository, code tends not to be changed until a bug appears.
 
 When we asked if \textit{Pythonic code} is positively viewed in a work interview, most of the interviewees agreed that writing \textit{pythonic} way is usually associated with high expertise in the language, but also, it is important to show good programming skills instead of writing \textit{Pythonic} code.
 
-When they discover a new idiom, a majority of the interviewees recognised that they usually do not adapt their old code, but they incorporate into  ``their toolbox'' and then when they touch something leave it better.
+When they discover a new idiom, a majority of the interviewees recognised that they usually do not adapt their old code, but they incorporate into  ``their toolbox'' and then when they modify something in the code, leave it better with their new knowledge.
 
 
 \section{Conclusion}
 
-This paper shows a better understanding about what \textit{Pythonic} means for developers: why is it important, what are the benefits, how people adapt their code... In the other hand we have seen how programmers learn to program more Pythonic, what are the causes that motivate the use of idioms. 
+This paper shows a better understanding of what \textit{Pythonic} means for developers: why is it important, what are the benefits, how people adapt their code... On the other hand we have seen how programmers learn to program more Pythonic, what are the causes that motivate the use of idioms. 
 
-Finally we have seen how the idioms are being spread, what are the differences between companies that use and do not use Open Source code and also how important is the \textit{Pythonic} code in interviews.
+Finally we have seen how the idioms are being spread, what are the differences between companies that use and do not use open source code and also how important is the \textit{Pythonic} code in interviews.
 
-To sum up, the \textit{Python} language has an huge community that focus on the readability of the code and also the performance. The use of some structures in Python (idioms) is desirable because improve both factors, therefore it is necessary to teach Python programmers once they have learned the basics, the importance of certain structures to improve their code for both a personal and professional field.
+To sum up, the \textit{Python} language has a huge community that focusses on the readability of the code and also the performance. The use of some structures in Python (idioms) is desirable because it improves both factors. It is necessary to teach Python programmers the idioms once they have learned the basics and therefore improve their code for both a personal and professional field.
 
 \section{Future work}
 
@@ -166,11 +166,11 @@ This paper shows work-in-progress in our quest for identifying the importance of
 
 \begin{itemize}
   
-  \item If idioms are \emph{good} practices, we have noticed as well the existence of \emph{anti-idioms} (similar to the patterns and anti-patterns idea~\cite{brown1998antipatterns}). We would like to identify them and see how often they are used.
+  \item We have seen idioms are \emph{good} practices. We have noticed as well the existence of \emph{anti-idioms} (similar to the patterns and anti-patterns idea~\cite{brown1998antipatterns}). We would like to identify them and see how often they are used.
   
-  \item We would like to filter projects by their importance, first by omitting pet or student projects (for instance those that have a lifetime of less than 6 months) and second by giving a weight to projects by using data from the Python Package Index (PIP).
+  \item We would like to rank projects by their importance, first by omitting pet or student projects (for instance those that have a lifetime of less than 6 months) and second by giving a weight to projects by using data from the Python Package Index (PIP).
   
-  \item We would like to study how Python idioms get propagated. This has two perspectives: how do new Python idioms propagate, and how do developers learn them.
+  \item We would like to study how Python idioms get propagated. This has two perspectives: how do Python idioms propagate, and how do developers learn them.
   
   \item Cluster Python programmers depending on their code, like scientific, scripters and software programmers.
 
@@ -199,7 +199,7 @@ This paper shows work-in-progress in our quest for identifying the importance of
   \item Is the list of Pythonic idioms "open-ended" or could it be catalogued?
   \item When you program, do you rely on Pythonic idioms, structures and methods, or you do not think about it?
   \item Does the use/adoption of idioms facilitate programming tasks? And also to debug?
-  \item When you discover a new idiom... do you adapt your old code? When? (Like immediately, next time, I maintain that file, or next item , I add functionality to the file)
+  \item When you discover a new idiom, do you adapt your old code? When? (Like immediately, next time, I maintain that file, or next item , I add functionality to the file)
 \end{itemize}
 
 \textit{Group 2: Questions focusing on how programmers get to know Pythonic idioms.}
@@ -213,11 +213,11 @@ This paper shows work-in-progress in our quest for identifying the importance of
 
 \textit{Group 3: Questions on the impact and propagation of Pythonic in the Python community and at work.}
 \begin{itemize}
-  \item Could you differentiate a beginner programer from an advancer programmer from its code? How? Is the level of adoption of Pythonic idioms a good way to measure that?
+  \item Could you differentiate a beginner programmer from an advanced programmer from its code? How? Is the level of adoption of Pythonic idioms a good way to measure that?
   \item Do you think that be proficient on Pythonic code in your repositories or in a job interview could help to get hired?
   \item Do you think that be proficient on Pythonic code is desirable in any open source or industrial environment?
   \item In your work, is it mandatory to write Pythonic code or it represents a mere personal choice?
-  \item Do you compare your code with your coworkers to recommend/teach a more Pythonic way to do some tasks? Do you read and learn python idioms reading coworker's code?
+  \item Do you compare your code with your coworkers to recommend/teach a more Pythonic way to do some tasks? Do you read and learn Python idioms by reading the coworker's code?
   \item Do you push your code in any open software platform such as GitHub? 
   \item What IDE do you usually use? Do you have any plugin to make your code more Pythonic? (pylint, pyflakes, etc.)
   \item How often will you use a tool that can make your code more Pythonic?
